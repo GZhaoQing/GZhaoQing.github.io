@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="hexo,github,自建," />
+  <meta name="keywords" content="hexo,github site," />
 
 
 
@@ -86,9 +86,10 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="第一篇博客，记录一下，您面前这个页面怎么来的：前提提要：1.假设你有一个github用户，windows用户请额外安装Git Bash2.假设你使用的电脑已经安装了node和npm3.感谢这篇教程https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;35668237 食材准备：#找一个文件夹，打开gitbash，安装hexonpm install -g hexo#安装扩展，用于git提交和部署">
 <meta property="article:published_time" content="2020-01-19T09:21:56.000Z">
-<meta property="article:modified_time" content="2020-01-19T09:40:56.941Z">
+<meta property="article:modified_time" content="2021-08-18T03:37:51.235Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="hexo,github,自建">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="github site">
 <meta name="twitter:card" content="summary">
 
 
@@ -186,6 +187,26 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -322,7 +343,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo-github-%E8%87%AA%E5%BB%BA/" rel="tag"># hexo,github,自建</a>
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/github-site/" rel="tag"># github site</a>
           
         </div>
       
@@ -415,7 +438,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -427,10 +450,10 @@
               
               
               <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">2</span>
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
@@ -454,7 +477,18 @@
       
 
       
-
+	  
+		<script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+		<div class="widget-wrap">
+			<h3 class="widget-title">Tag Cloud</h3>
+			<div id="myCanvasContainer" class="widget tagcloud">
+				<canvas width="250" height="250" id="resCanvas" style="width:100%">
+					<ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Oracle/" rel="tag">Oracle</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github-site/" rel="tag">github site</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/log4j/" rel="tag">log4j</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%BF%97/" rel="tag">日志</a><span class="tag-list-count">1</span></li></ul>
+				</canvas>
+			</div>
+		</div>
+	  
     </div>
   </aside>
 
